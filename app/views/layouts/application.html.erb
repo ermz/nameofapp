@@ -4,23 +4,42 @@
     <title>Nameofapp</title>
     <%= csrf_meta_tags %>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <%= csrf_meta_tags %>
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li><Home></li>
-        <li><About></li>
-        <li><Contact></li>
-      </ul>
-    </nav>
+    <div class="page-wrap">
+      <nav class="navbar">
+        <div class="web_name">
+          <a>Sol Trip</a>
+        </div>
+        <ul class="web_pages">
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
 
-    <%= yield %>
+      <%= yield %>
+    </div>
 
-    <footer>
-      &copy; 2017 Bike Berlin
+    <footer id="sticky">
+      &copy; 2018 Sol Trip
+      <div class="dropup">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Socials
+        <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Skype</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
