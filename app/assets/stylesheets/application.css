@@ -20,12 +20,16 @@
    position: relative;
  }
 
+ .page-wrap {
+   padding-top: 3em;
+ }
+
  .navbar {
    background-color: #484848;
  }
 
 .navbar div, ul {
-  display: inline-block;
+  display: ;
 }
 
 .web_name {
@@ -35,14 +39,12 @@
 .web_name a {
   color: #C9AE5D;
   font-size: 1.5em;
-  font-family: cursive, fantasy, sans-serif;
+  font-family: fantasy, sans-serif;
   position: relative;
   left: 15px;
 }
 
 .web_pages {
-  float: right;
-  padding-top: 1em;
   position: relative;
   right: 10px;
 }
@@ -57,6 +59,7 @@
 
 footer {
   text-align: center;
+  font-family: sans-serif;
 }
 
 #sticky {
