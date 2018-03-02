@@ -1,0 +1,134 @@
+/* line 4, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+body {
+  background-color: #F5DEB3;
+}
+
+/* line 8, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+h1 {
+  color: black;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
+/* line 14, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+h2 {
+  color: black;
+  text-align: center;
+}
+
+/* line 19, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+h3 {
+  font-family: cursive, sans-serif;
+  text-align: center;
+}
+
+/* line 24, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+p {
+  color: black;
+  text-align: left;
+}
+
+/* line 29, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.contact-textarea {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 5px 0 5px;
+}
+
+/* line 35, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+#contact-submit {
+  margin-top: 16px;
+}
+
+/* line 39, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.contact-info {
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 16px 5px 0 5px;
+}
+
+/* line 46, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.about-text {
+  padding: 0 30px 35px 30px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ body {
+   margin: 0;
+   height: 100%;
+   position: relative;
+ }
+
+ .page-wrap {
+   padding-top: 3em;
+ }
+
+ .navbar {
+   background-color: #484848;
+ }
+
+.navbar div, ul {
+  display: ;
+}
+
+.web_name {
+  padding-top: 0.7em;
+}
+
+.web_name a {
+  color: #C9AE5D;
+  font-size: 1.5em;
+  font-family: fantasy, sans-serif;
+  position: relative;
+  left: 15px;
+}
+
+.web_pages {
+  position: relative;
+  right: 10px;
+}
+
+.web_pages li {
+  display: inline-block;
+  font-size: 1.45em;
+  padding-left: 0.5em;
+  color: #FBC299;
+  font-family: Bookman, fantasy, sans-serif;
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#sticky {
+  width: 100%;
+  padding: 7px;
+  padding-bottom: 7px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background:rgba(0, 0, 0, .5)
+}
+
+.dropup {
+  display: inline-block;
+}
