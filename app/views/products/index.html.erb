@@ -31,12 +31,7 @@
 <div class="container-fluid">
   <div class="row">
     <% @products.each do |product| %>
-      <div class="col-sm-2 col-md-4">
-        <a href="#"><h1 class="record_name"><%= product.name %></h1></a>
-        <%= image_tag(product.image_url, class: "img-responsive record_image") %>
-        <p class="record_description"><%= product.description %></p>
-        <p><%= product.price %></p>
-      </div>
+      <%= render @products %>
     <% end %>
   </div>
 </div>

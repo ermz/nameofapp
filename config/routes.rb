@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'simple_pages/about', to: 'simple_pages#about', as: 'about'
 
   get 'simple_pages/contact', to: 'simple_pages#contact', as: 'contact'
+  
 
   root 'simple_pages#landing_page'
 
