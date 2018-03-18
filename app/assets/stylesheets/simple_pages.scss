@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
   background-color: #F5DEB3;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -49,4 +50,20 @@ p {
 
 .banner-img {
   margin: 0 auto;
+}
+
+//* landing_page styles *//
+.feature-title {
+  color: #f4f1d6;
+  font-weight: bold;
+  font-style: oblique;
+  background-image: url("https://www.magneticmag.com/.image/t_share/MTQ4NDgxMjcwOTAzNDgxNTQ3/records-2211355_960_720.jpg");
+}
+
+.carousel-caption {
+  border-radius: 25px;
+  margin: 0 auto;
+  max-width: 200px;
+  color: white;
+  background:rgba(0, 0, 0, .8)
 }

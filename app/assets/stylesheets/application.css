@@ -60,6 +60,7 @@
 footer {
   text-align: center;
   font-family: sans-serif;
+  z-index: 100; /* a bit of overkill for index, but just to be sure */
 }
 
 #sticky {
