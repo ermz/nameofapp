@@ -18,7 +18,7 @@
       <%= image_tag(product.image_url) %>
       <div class="carousel-caption">
         <%= product.name %>
-        <a class="feature-link" href="../products/<%= product.id %>">Learn more</a>
+        <%= link_to "Learn more", product_path(product.id) %>
       </div>
     </div>
     <% end %>

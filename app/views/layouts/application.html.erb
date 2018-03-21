@@ -26,14 +26,14 @@
               <span class="icon-bar"></span>
             </button>
             <div class="web_name">
-              <a>Spin Records</a>
+              <a><%= link_to "Spin Records", simple_pages_landing_page_path %></a>
             </div>
           </div> <!-- end navbar-header -->
           <div class="navbar-collapse collapse">
             <ul class="web_pages nav navbar-nav navbar-right">
-              <li><a href="../simple_pages/index">Home</a></li>
-              <li><a href="../simple_pages/about">About</a></li>
-              <li><a href="../simple_pages/contact">Contact</a></li>
+              <li><%= link_to "Home", simple_pages_index_path %></li>
+              <li><%= link_to "About", simple_pages_about_path %></li>
+              <li><%= link_to "Contact", simple_pages_contact_path %></li>
             </ul>
           </div> <!-- nav -->
         </div> <!-- end nav container -->
