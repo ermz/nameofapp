@@ -4,10 +4,14 @@
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <% @products.each do |product| %>
+    <!-- <% @products.each do |product| %>
       <%if product == @products.first ? @data_slide_num == 0 : @data_slide_num += 1%>
       <% end %>
       <li data-target="#carousel-example-generic" data-slide-to="@data_slide_num" class="<%= 'active' if product == @products.first %>"></li>
+    <% end %>
+    -->
+    <% (0...@products.size).each do |i| %>
+      <li data-target="#carousel-example-generic" data-slide-to="i" class="<%= 'active' if i == 0 %>"></li>
     <% end %>
   </ol>
 
