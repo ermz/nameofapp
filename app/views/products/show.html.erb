@@ -1,8 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <div class="row">
-  <div class="col-lg-6 show-img">
-    <%= image_tag(@product.image_url, class: "img-responsive") %>
+  <div class="col-lg-6 show-img-container">
+    <%= image_tag(@product.image_url, class: "img-responsive show-img") %>
+    <p><%= @product.name %></p>
   </div>
   <div class="col-lg-6">
     <div class="show-description">

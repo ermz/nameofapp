@@ -16,18 +16,29 @@
 }
 
 // show style
-.show-img {
-  padding: 0 30px 0 30px;
+.show-img-container {
+  padding: 10px 30px 0 30px;
   margin: 0 auto;
+}
+
+.show-img-container p {
+  text-align: center;
+  background-color: #1a2a5a;
+  color: white;
+}
+
+.show-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .show-description {
-  padding-top: 100px;
-  width: 300px;
+  padding-top: 110px;
+  width: 600px;
   margin: 0 auto;
 }
 
-.show-descriptio {
+.show-description p{
   // look at simple_pages stylesheet to see the problem it's taking priority to that style sheet
-  color: red;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
