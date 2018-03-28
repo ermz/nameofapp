@@ -32,6 +32,33 @@
   display: ;
 }
 
+#search-bar {
+  position: relative;
+  up: 5px;
+  right: 20px;
+}
+
+#search-bar input[type=text] {
+  padding: 0px;
+  width: 180px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+#search-bar input[type=submit] {
+  padding: 4px;
+  background-color: #3b5998;
+  color: white;
+  width: 105px;
+  padding-top: 2px;
+}
+
+@media(max-width: 780px) {
+  #search-bar {
+    display: none;
+  }
+}
+
 .web_name {
   padding-top: 0.7em;
 }

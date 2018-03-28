@@ -29,8 +29,17 @@
               <a><%= link_to "Spin Records", simple_pages_landing_page_path %></a>
             </div>
           </div> <!-- end navbar-header -->
+
           <div class="navbar-collapse collapse">
             <ul class="web_pages nav navbar-nav navbar-right">
+              <li>
+                <div id="search-bar">
+                  <%= form_with(url: products_path, method: 'get', local: true) do |form| %>
+                  <%= form.text_field :q, id: 'q', value: params[:q] %>
+                  <%= form.submit 'Search' %>
+                  <% end %>
+                </div>
+              </li>
               <li><%= link_to "Home", simple_pages_index_path %></li>
               <li><%= link_to "About", simple_pages_about_path %></li>
               <li><%= link_to "Contact", simple_pages_contact_path %></li>

@@ -42,3 +42,43 @@
   font-size: 20px;
   padding-bottom: 20px;
 }
+
+.product-form-div {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type=text] {
+  padding: 5px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px 1px 1.5px 0.5px;
+  cursor: text;
+  width: 280px;
+}
+
+label {
+  font-family: italic sans-serif;
+  font-size: 1.5em;
+}
+
+textarea {
+  width: 280px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px 1px 1.5px 0.5px;
+  cursor: text;
+}
+
+input[type=submit] {
+  background-color: coral; /* Green */
+  border-radius: 20px;
+  color: white;
+  padding: 10px 12px;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
