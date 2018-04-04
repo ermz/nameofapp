@@ -1,0 +1,53 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// refers to Log in text fields and login button form
+#new_user {
+  width: 180px;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+#edit_user {
+  width: 180px;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+// refers to text fields
+.devise-text {
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+// refers to the actual check box
+#user_remember_me {
+  margin-right: 4.5px;
+}
+
+// refers to actual remember me text
+.devise-remember label{
+  font-family: italic, normal, sans-serif;
+  font-size: 0.9em;
+  display: inline-block;
+}
+
+// refers to area containing log in button
+.devise-action {
+  border-bottom: 25px;
+}
+
+// refers to the log in button
+.devise-actions input{
+  display: block;
+  width: 6em;
+  height: 2.8em;
+  margin: 0 auto;
+}
+
+.devise-shared-links {
+  border-top: 1.5px solid black;
+  width: 180px;
+  margin: 0 auto;
+}

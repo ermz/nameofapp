@@ -15,6 +15,9 @@
   </head>
 
   <body>
+
+    <p class="notice"><%= notice %></p>
+
     <div class="page-wrap">
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container-fluid">
@@ -44,6 +47,17 @@
               <li><%= link_to "About", simple_pages_about_path %></li>
               <li><%= link_to "Contact", simple_pages_contact_path %></li>
             </ul>
+
+            <ul class="nav pull-left log-button">
+              <li>
+              <% if user_signed_in? %>
+                <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+              <% else %>
+                <%= link_to('Login', new_user_session_path) %>
+              <% end %>
+              </li>
+            </ul>
+
           </div> <!-- nav -->
         </div> <!-- end nav container -->
       </nav><!-- end navbar -->

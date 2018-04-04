@@ -32,6 +32,11 @@
   display: ;
 }
 
+.log-button {
+  padding-left: 20px;
+  font-size: 1.1em;
+}
+
 #search-bar {
   position: relative;
   up: 5px;
@@ -56,6 +61,13 @@
 @media(max-width: 780px) {
   #search-bar {
     display: none;
+  }
+
+  .log-button {
+    padding: 0;
+    font-size: 1.45em;
+    color: #FBC299;
+    font-family: Bookman, fantasy, sans-serif;
   }
 }
 
