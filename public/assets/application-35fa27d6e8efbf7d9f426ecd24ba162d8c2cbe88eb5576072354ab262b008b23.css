@@ -1,0 +1,426 @@
+/* line 5, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.record_name {
+  text-align: left;
+}
+
+/* line 9, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.record_image {
+  height: 25em;
+  width: 30em;
+}
+
+/* line 14, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.record_description {
+  border-left: 4px double #83AE9B;
+}
+
+/* line 19, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.show-img-container {
+  padding: 10px 30px 0 30px;
+  margin: 0 auto;
+}
+
+/* line 24, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.show-img-container p {
+  text-align: center;
+  background-color: #1a2a5a;
+  color: white;
+}
+
+/* line 30, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.show-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 34, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.show-description {
+  padding-top: 110px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* line 40, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.show-description p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 46, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+.product-form-div {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* line 52, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+input[type=text] {
+  padding: 5px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px 1px 1.5px 0.5px;
+  cursor: text;
+  width: 280px;
+}
+
+/* line 61, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+label {
+  font-family: italic sans-serif;
+  font-size: 1.5em;
+}
+
+/* line 66, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+textarea {
+  width: 280px;
+  padding: 5px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px 1px 1.5px 0.5px;
+  cursor: text;
+}
+
+/* line 75, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/products.scss */
+input[type=submit] {
+  background-color: coral;
+  /* Green */
+  border-radius: 20px;
+  color: white;
+  padding: 10px 12px;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+/* line 1, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 4, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+body {
+  background-color: #F5DEB3;
+  padding-bottom: 50px;
+}
+
+/* line 9, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+h1 {
+  color: black;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
+/* line 15, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+h2 {
+  color: black;
+  text-align: center;
+}
+
+/* line 20, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+h3 {
+  font-family: cursive, sans-serif;
+  text-align: center;
+}
+
+/* line 25, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+p {
+  color: black;
+  text-align: left;
+}
+
+/* line 30, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.contact-info {
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 16px 5px 0 5px;
+}
+
+/* line 37, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.about-text {
+  padding: 0 30px 35px 30px;
+}
+
+/* line 41, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.banner-img {
+  margin: 0 auto;
+}
+
+/* line 46, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.feature-title {
+  color: #f4f1d6;
+  font-weight: bold;
+  font-style: oblique;
+  background-image: url("https://www.magneticmag.com/.image/t_share/MTQ4NDgxMjcwOTAzNDgxNTQ3/records-2211355_960_720.jpg");
+}
+
+/* line 53, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/simple_pages.scss */
+.carousel-caption {
+  border-radius: 25px;
+  margin: 0 auto;
+  max-width: 200px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+/* line 6, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+#new_user {
+  width: 180px;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+/* line 12, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+#edit_user {
+  width: 180px;
+  max-width: 180px;
+  margin: 0 auto;
+}
+
+/* line 19, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+.devise-text {
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+/* line 25, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+#user_remember_me {
+  margin-right: 4.5px;
+}
+
+/* line 30, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+.devise-remember label {
+  font-family: italic, normal, sans-serif;
+  font-size: 0.9em;
+  display: inline-block;
+}
+
+/* line 37, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+.devise-action {
+  border-bottom: 25px;
+}
+
+/* line 42, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+.devise-actions input {
+  display: block;
+  width: 6em;
+  height: 2.8em;
+  margin: 0 auto;
+}
+
+/* line 49, /Users/edsonramirez/repos/nameofapp/app/assets/stylesheets/users.scss */
+.devise-shared-links {
+  border-top: 1.5px solid black;
+  width: 180px;
+  margin: 0 auto;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+ body {
+   margin: 0;
+   height: 100%;
+   position: relative;
+ }
+
+ .page-wrap {
+   padding-top: 3em;
+ }
+
+ .navbar {
+   background-color: #484848;
+ }
+
+.navbar div, ul {
+  display: ;
+}
+
+.log-button {
+  padding-left: 20px;
+  font-size: 1.1em;
+}
+
+#search-bar {
+  position: relative;
+  up: 5px;
+  right: 20px;
+}
+
+#search-bar input[type=text] {
+  padding: 0px;
+  width: 180px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+#search-bar input[type=submit] {
+  padding: 4px;
+  background-color: #3b5998;
+  color: white;
+  width: 105px;
+  padding-top: 2px;
+}
+
+.notice {
+  margin: 0;
+  padding: 15px 0 0 30px;
+}
+
+@media(max-width: 780px) {
+  #search-bar {
+    display: none;
+  }
+
+  .log-button {
+    padding: 0;
+    font-size: 1.45em;
+    color: #FBC299;
+    font-family: Bookman, fantasy, sans-serif;
+  }
+}
+
+.web_name {
+  padding-top: 0.7em;
+}
+
+.web_name a {
+  color: #C9AE5D;
+  font-size: 1.5em;
+  font-family: fantasy, sans-serif;
+  position: relative;
+  left: 15px;
+}
+
+.web_pages {
+  position: relative;
+  right: 10px;
+}
+
+.web_pages li {
+  display: inline-block;
+  font-size: 1.45em;
+  padding-left: 0.5em;
+  color: #FBC299;
+  font-family: Bookman, fantasy, sans-serif;
+}
+
+footer {
+  text-align: center;
+  font-family: sans-serif;
+  z-index: 100; /* a bit of overkill for index, but just to be sure */
+}
+
+#sticky {
+  width: 100%;
+  padding: 7px;
+  padding-bottom: 7px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background:rgba(0, 0, 0, .5)
+}
+
+.dropup {
+  display: inline-block;
+}

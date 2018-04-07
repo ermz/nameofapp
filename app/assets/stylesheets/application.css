@@ -58,6 +58,11 @@
   padding-top: 2px;
 }
 
+.notice {
+  margin: 0;
+  padding: 15px 0 0 30px;
+}
+
 @media(max-width: 780px) {
   #search-bar {
     display: none;
