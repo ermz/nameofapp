@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.product-show-container {
+  padding: 0 85px;
+}
+
 .record_name {
   text-align: left;
 }
@@ -32,15 +36,18 @@
 }
 
 .show-description {
-  padding-top: 110px;
   width: 600px;
   margin: 0 auto;
+  border-left: 2px solid;
+  margin-top: 110px;
+  margin-bottom: 7px;
 }
 
 .show-description p{
   // look at simple_pages stylesheet to see the problem it's taking priority to that style sheet
   font-size: 20px;
-  padding-bottom: 20px;
+  padding: 0 0 20px 7px;
+  font-family: Georgia, serif;
 }
 
 .product-form-div {
@@ -81,4 +88,27 @@ input[type=submit] {
   text-align: center;
   text-decoration: none;
   font-size: 14px;
+}
+
+.product-show-links {
+  display: block;
+  padding: 0 0 0 100px;
+}
+
+@media(max-width: 780px) {
+  .product-show-container {
+    padding: 0 25px;
+  }
+
+  .show-description {
+    margin-top: 35px;
+  }
+
+  .show-description p {
+    font-size: 15px;
+  }
+
+  .product-show-links {
+    padding: 0 0 0 35px;
+  }
 }
