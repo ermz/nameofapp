@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
   resources :users
-  resources :products
+  resources :products do
+    resources :comments
+  end
   resources :orders, only: [:index, :show, :create, :destroy, :new]
 
   get 'simple_pages/index', to: 'simple_pages#index'
