@@ -1,4 +1,11 @@
 class SimplePagesController < ApplicationController
+
+  include ActiveModel::Validations
+
+  validates :name, presence: true
+  validates :email, presence: true
+  validates :messages, presence: true
+
   def index
   end
 
