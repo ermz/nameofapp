@@ -34,7 +34,6 @@
 }
 
 .log-button {
-  padding-left: 20px;
   font-size: 1.1em;
 }
 
@@ -97,7 +96,6 @@
 .web_pages li {
   display: inline-block;
   font-size: 1.45em;
-  padding-left: 0.5em;
   color: #FBC299;
   font-family: Bookman, fantasy, sans-serif;
 }
