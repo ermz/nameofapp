@@ -9,11 +9,6 @@ class UsersController < ApplicationController
     @users = User.all
   end
 
-  def sign_up
-    @user = current_user
-    UserMailer.welcome_new_user(@user)
-  end
-
   # GET /users/1
   # GET /users/1.json
   def show
