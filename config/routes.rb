@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  post 'payments/create'
+
   devise_for :users
   resources :users
   resources :products do
