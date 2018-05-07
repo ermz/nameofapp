@@ -12,7 +12,7 @@ class UserMailer < ApplicationMailer
     @user = user
     @product = product
     mail(from: "eramirez4369@gmail.com",
-         to: user.email,
-         subject: "Thank you, for your order. Below is an order confirmation for #{product.name}.")
+         to: @user.email,
+         subject: "Thank you, for your order. Below is an order confirmation for #{@product.name}.")
   end
 end
