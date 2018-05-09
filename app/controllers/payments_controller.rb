@@ -15,7 +15,6 @@ class PaymentsController < ApplicationController
       if charge.paid
         Order.create(
           product_id: @product.id,
-          user_id: @user.id,
           total: @product.price
         )
         flash[:sucess] = "Your payment was succesfull. Order overview sent to e-mail."
