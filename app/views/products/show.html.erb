@@ -27,7 +27,7 @@
       </p>
 
       <p>
-        <strong>Average Rating:</strong> <div class="rated" data-score="<%= @product.average_rating %>"></div>
+        <strong>Average Rating:</strong> <div id="average-rating" class="rated" data-score="<%= @product.average_rating %>"></div>
       </p>
 
       <%= form_with(url: '/payments/create') do |form| %>
