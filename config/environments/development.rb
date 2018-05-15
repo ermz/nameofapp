@@ -12,6 +12,11 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
+  # show read and write fragments in logs when caching
+  config.action_controller.enable_fragment_cache_logging = true
+
+  config.cache_store = :dalli_store
+
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
     config.action_controller.perform_caching = true
