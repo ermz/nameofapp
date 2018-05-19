@@ -4,7 +4,6 @@ class PaymentsController < ApplicationController
     @product = Product.find(params[:product_id])
     @user = current_user
     # Create the charge on Stripe's servers - this will charge the user's card
-    byebug
     begin
       charge = Stripe::Charge.create(
         amount: (@product.price * 100).to_i, # amount in cents, again
