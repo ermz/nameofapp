@@ -76,15 +76,46 @@ describe ProductsController, type: :controller do
   end
 
   describe 'POST #create' do
+    context 'when a valid product is created' do
+      before do
+        sign_in @admin
+      end
+      it 'valid product is created' do
+        post :create, params: { product: { name: @product.name, description: @product.description, price: @product.price} }
+        expect(assigns(:product)).to be_a(Product)
+      end
 
+      it "invalid product creation is denied" do
+        @invalid_product = FactoryBot.build(:product, name: "")
+        post :create, params: {product: { name: @invalid_product.name, description: @invalid_product.description, price: @invalid_product.price} }
+        expect(@invalid_product).not_to be_valid
+      end
+    end
   end
 
   describe 'PATCH #update' do
-
+    context 'when a product is updated' do
+      before do
+        sign_in @admin
+      end
+      it "update name attribute" do
+        post :update, params: { id: @product.id, product: { name: "update_name"} }
+        @product.reload
+        expect(@product.name).to eq "update_name"
+      end
+    end
   end
 
   describe 'DELETE #destroy' do
-
+    context "when admin deletes a product" do
+      before do
+        sign_in @admin
+      end
+      it 'delete product from application' do
+        delete :destroy, params: { id: @product.id }
+        expect(response).to redirect_to(products_path)
+      end
+    end
   end
 
 end

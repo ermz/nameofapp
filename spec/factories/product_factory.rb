@@ -4,7 +4,7 @@ FactoryBot.define do
     description 'great'
     image_url 'http://vinlypic.something'
     colour 'red'
-    price '24.99'
+    price 24.99
     condition 'used'
   end
 end
