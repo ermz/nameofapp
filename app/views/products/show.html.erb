@@ -39,9 +39,6 @@
     </div>
   </div>
 <% end %>
-<span>
-  <%= @product.views %>
-</span>
 
 
 <div class="product-show-links">
@@ -50,6 +47,9 @@
 </div>
 
 <div class="show-comments">
+  <h6>
+    Views: <%= @product.views %>
+  </h6>
   <div class="alert alert-info" style="display:none" role="alert">A new comment was posted!</div>
   <%= render 'new_comment' %>
   <%= render 'comments'%>
