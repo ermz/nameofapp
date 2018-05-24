@@ -8,7 +8,7 @@ class Product < ApplicationRecord
   end
 
   def viewed!
-    $redis.incr.("product:#{id}")
+    $redis.incr("product:#{id}")
   end
 
   def self.search(search_term)
